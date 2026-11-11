@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="DSH Session Groups">
+  <rect width="256" height="256" rx="56" fill="#2563eb"/>
+  <path d="M48 82c0-10 8-18 18-18h42l18 22h64c10 0 18 8 18 18v82c0 10-8 18-18 18H66c-10 0-18-8-18-18V82Z" fill="#ffffff" opacity="0.96"/>
+  <path d="M48 106h160" stroke="#2563eb" stroke-width="6" opacity="0.22"/>
+  <path d="M104 134v18c0 4 3 7 7 7h34" fill="none" stroke="#2563eb" stroke-width="7" stroke-linecap="round"/>
+  <path d="M104 134h34" fill="none" stroke="#2563eb" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="104" cy="134" r="8" fill="#2563eb"/>
+  <circle cx="145" cy="159" r="8" fill="#2563eb"/>
+  <circle cx="145" cy="134" r="8" fill="#60a5fa"/>
+  <path d="M145 134v25" stroke="#60a5fa" stroke-width="7" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,3 @@
+- insert:
+    - id: ui-session-tree
+      name: dsh-session-groups

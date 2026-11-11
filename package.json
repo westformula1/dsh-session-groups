@@ -1,0 +1,52 @@
+{
+  "name": "dsh-session-groups",
+  "version": "0.2.0",
+  "description": "DSH Web GUI sidebar session tree: group sessions inside each workspace into folders, persisted to disk with import/export.",
+  "author": "westformula1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/westformula1/dsh-session-groups.git"
+  },
+  "homepage": "https://github.com/westformula1/dsh-session-groups#readme",
+  "bugs": {
+    "url": "https://github.com/westformula1/dsh-session-groups/issues"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE",
+    "PUBLISHING.md",
+    "assets",
+    "cordis.patch.yml"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "dsh-bundle",
+    "deepseek-harness",
+    "session-groups",
+    "sidebar",
+    "workspace"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "engines": {
+      "dsh": ">=0.2.2-rc.1 <0.3.0"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}

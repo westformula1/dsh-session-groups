@@ -1,0 +1,16 @@
+# Local-only recovery snapshots may contain session titles and workspace paths.
+recovery/
+
+# Local demo screenshots may contain personal workspace/session names.
+docs/screenshots/
+
+# Package/build artifacts
+node_modules/
+*.tgz
+*.log
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
