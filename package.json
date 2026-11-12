@@ -1,6 +1,6 @@
 {
   "name": "dsh-session-groups",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "DSH Web GUI sidebar session tree: group sessions inside each workspace into folders, persisted to disk with import/export.",
   "author": "westformula1",
   "license": "MIT",
@@ -24,6 +24,7 @@
     "README.md",
     "LICENSE",
     "PUBLISHING.md",
+    "CHANGELOG.md",
     "assets",
     "cordis.patch.yml"
   ],
